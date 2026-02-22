@@ -1,0 +1,2 @@
+[console_scripts]
+ezlang = compiler:main

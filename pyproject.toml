@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ezlang-compiler"
+version = "0.1.0"
+description = "A simple custom language to PHP transpiler built in Python for a school project."p
+authors = [
+    { name = "Your Name", email = "youremail@example.com" }
+]
+requires-python = ">=3.8"
+
+# If you decide to use a library like 'lark' or 'ply' for parsing later,
+# you would add them to this list. For now, it's empty since we used built-in modules.
+dependencies = []
+
+[project.optional-dependencies]
+# Tools useful while you are coding, but not needed to run the finished compiler
+dev = [
+    "pytest", # Great for testing if your compiler outputs the right PHP
+]
+
+[project.scripts]
+# This is the magic part! It creates a terminal command called 'ezlang'.
+# It tells Python: "When I type 'ezlang', run the 'main' function inside 'compiler.py'"
+ezlang = "compiler:main"
