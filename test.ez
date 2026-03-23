@@ -1,3 +1,13 @@
 let test = "Funguje to?"
 print test
-let premek = "567643464556443"
+let premek = 567643464556443
+
+print premek
+
+let numTest = 12
+
+print premek - numtest
+
+print premek || numtest
+
+let print
