@@ -22,6 +22,6 @@ Future:
 This will install the module directly into your system which can cause unforseen consequences
 
 1. Clone the Repo
-2. `pip install .\target\wheels\phplus-0.0.1-cp314-cp314-win_amd64.whl`
+2. `pip install .`
 3. `python compiler.py [your_file_name].ez`
 
