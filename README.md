@@ -1,27 +1,21 @@
 # PHPlus 
 A better way to write PHP.
 
-## REQUIREMENTS
-Now: `Python >= 3.8` \
-Future: `Nothing, everything will be included in the .exe`
-
 ## USAGE (Your Own System)
 Now: 
-1. Clone the Repo
-2. `pip install .`
-3. `.\.venv\Scripts\activate`
-4. `py compiler.py [your_file_name].ez`
+1. Download the release
+2. `[path/to/the/downloaded/file.exe] [your_file_name].ez`
 
 Future:
 1. Download and run the installer
 2. `phplus [your_file_name].ez`
 
+## FUNCTIONALITY
+I'd like this to be a less brainnumbingly stupid version of PHP
+### CURRENTLY
+just let and print
 
-## USAGE (Can't run `.ps1` scripts)
-**DON'T DO THIS UNLESS YOU HAVE TO, THIS IS NOT A STABLE RELEASE**\
-This will install the module directly into your system which can cause unforseen consequences
-
-1. Clone the Repo
-2. `pip install .`
-3. `python compiler.py [your_file_name].ez`
-
+### FUTURE
+usual statements like if, for or while\
+hopefully strict typing (at least before compile)\
+better OOP implementation (no `$object->attribute`, but `object.attribute`)
